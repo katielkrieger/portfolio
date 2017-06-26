@@ -1,0 +1,11 @@
+.about-parent {
+  margin: 100px 0;
+  display: table;
+  text-align: center;
+  width: 100%;
+}
+
+.about {
+  display: table-cell;
+  vertical-align: middle;
+}
