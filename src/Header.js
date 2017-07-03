@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MyNavbar from './MyNavbar';
 import './Header.css';
 
 const image = require('./static/images/image.jpg');
@@ -8,7 +9,7 @@ class Header extends Component {
 
     return (
       <div className='header'>
-        Header
+        <MyNavbar />
         <div className="image-holder">
           <img src={image} alt="Katie Krieger"/>
           <div className="text">
