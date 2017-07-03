@@ -50,11 +50,11 @@ Portfolio.defaultProps = {
     },
     {
       name: 'New York Times History',
-      description: "Users can keep track of books they want to read, and can rate and review books they have read. A user's reviews are shown on their home page in an interactive D3 visualization. Users can add books to their booklist or bookshelf using a search functionality. They can also mark books on their booklist as read. Doing so allows them to rate and review the book, and moves it from their booklist to their bookshelf. Users can browse the top rated books on the site and email their reviews to a friend using a simple form. Users can also follow other users and explore the top rated books of the people they follow.",
+      description: "Explore history by looking through the New York Times archives. Search headlines or entire articles to discover the first time the New York Times wrote about a particular subject. See a preview of the story along with a link to the full article.",
       technologies: 'Python with Flask, SQLAlchemy, JavaScript, D3, jQuery',
       github: 'https://github.com/katielkrieger/nyt_search',
       url: 'https://katielkrieger.github.io/nyt_search/',
-      image: './static/images/my-bookshelves.jpg'
+      image: './static/images/NYT.jpg'
     },
   ]
 };

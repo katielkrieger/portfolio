@@ -6,7 +6,6 @@ class AboutMe extends Component {
 
     return (
       <div className='about-parent'>
-        <a id="about"></a>
         <div className='about'>
           <div>
             I'm a web developer with experience across the stack and a passion for working with React.
@@ -16,8 +15,6 @@ class AboutMe extends Component {
           </div>
         </div>
       </div>
-      
-
     )
   }
 }

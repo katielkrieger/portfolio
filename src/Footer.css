@@ -1,0 +1,43 @@
+.footer-parent {
+  padding: 100px 0;
+  display: table;
+  text-align: center;
+  width: 100%;
+}
+
+.footer {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hello {
+  padding-bottom: 25px;
+}
+
+.glyphicon {
+  font-size: 36px;
+}
+
+.footer img {
+  width: 36px;
+  height: auto;
+}
+
+.footer span {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+    color: #535254;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+    color: #535254;
+}
