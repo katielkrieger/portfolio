@@ -38,7 +38,7 @@ Portfolio.defaultProps = {
       technologies: 'React, Node.js, Mongoose, OAuth 2.0 (Google), Sass',
       github: 'https://github.com/rithmschool/patterns-api',
       url: 'https://patterns-staging.herokuapp.com',
-      image: './static/images/Patterns8.jpg'
+      image: './static/images/Patterns.jpg'
     },
     {
       name: 'My Bookshelves',
@@ -64,5 +64,13 @@ Portfolio.defaultProps = {
       url: 'https://katielkrieger.github.io/nyt_search/',
       image: './static/images/NYT.jpg'
     },
+    {
+      name: 'To Do App',
+      description: "Keep track of to dos using this simple web app. Easily add new to dos, mark a to do as complete, and remove completed to dos.",
+      technologies: 'jQuery, JavaScript, Bootstrap',
+      github: 'https://github.com/katielkrieger/to_do_app',
+      url: 'https://katielkrieger.github.io/to_do_app/?#',
+      image: './static/images/todo.jpg'
+    }
   ]
 };
