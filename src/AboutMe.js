@@ -8,10 +8,11 @@ class AboutMe extends Component {
       <div className='about-parent'>
         <div className='about'>
           <div>
-            I'm a web developer with experience across the stack and a passion for working with React.
+            I have always loved trying to develop elegant solutions to difficult problems. I first became drawn to software development because I felt limited by my knowledge, and I wanted to feel limited only by my imagination. This website represents my progress along that path.
           </div>
+          <div>&nbsp;</div>
           <div>
-            I have nearly 10 years of experience focusing on environmental issues like climate change and air quality.
+            Please explore and feel free to reach out with any questions or suggestions. Thank you for visiting!
           </div>
         </div>
       </div>

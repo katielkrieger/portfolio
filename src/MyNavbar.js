@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import './MyNavbar.css';
 import { Navbar,
          Nav,
-         NavItem,
-         DropdoownButton,
-         MenuItem } from 'react-bootstrap';
+         NavItem } from 'react-bootstrap';
 
 
 class MyNavbar extends Component {

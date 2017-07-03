@@ -11,12 +11,12 @@
   background-position: top center;
 }
 
-.project:hover {
-  box-shadow: 0 0 3pt 1pt black;
-}
-
 .project h3 {
   margin-top: 150px;
+}
+
+.project:hover {
+  box-shadow: 0 0 3pt 1pt black;
 }
 
 .project h3, .project h4 {
@@ -47,4 +47,16 @@
   opacity: 0.01;
   max-height: 0px;
   transition: all 500ms ease-in;
+}
+
+@media screen and (max-width: 500px) {
+  .project {
+    width: 300px;
+    height: 300px;
+    margin-left: calc(50% - 150px);
+  }
+
+  .project h3 {
+    margin-top: 100px;
+  }
 }

@@ -9,3 +9,8 @@
   display: table-cell;
   vertical-align: middle;
 }
+
+.about div {
+  width: 60%;
+  margin-left: 20%;
+}

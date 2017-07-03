@@ -18,11 +18,6 @@ class Project extends Component {
     });
   }
   
-  // <button onClick={this.handleClick}>{this.state.visible ? 'Show details' : 'Hide details'}</button>
-
-           // <img src={image}/>
-
-          
 
   render() {
 
