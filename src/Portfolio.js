@@ -33,6 +33,14 @@ export default Portfolio;
 Portfolio.defaultProps = {
   projects: [
     {
+      name: 'Tradecraft Patterns',
+      description: "I helped Tradecraft develop a new website designed to support job searches. Users can browse companies and add specific companies to their funnel, where they can be shuffled between various stages such as Research, Interview, and Follow Up. Users can also keep personal notes about specific companies.",
+      technologies: 'React, Node.js, Mongoose, OAuth 2.0 (Google), Sass',
+      github: 'https://github.com/rithmschool/patterns-api',
+      url: 'https://patterns-staging.herokuapp.com',
+      image: './static/images/Patterns8.jpg'
+    },
+    {
       name: 'My Bookshelves',
       description: "Users can keep track of books they want to read, and can rate and review books they have read. A user's reviews are shown on their home page in an interactive D3 visualization. Users can add books to their booklist or bookshelf using a search functionality. They can also mark books on their booklist as read. Doing so allows them to rate and review the book, and moves it from their booklist to their bookshelf. Users can browse the top rated books on the site and email their reviews to a friend using a simple form. Users can also follow other users and explore the top rated books of the people they follow.",
       technologies: 'Python with Flask, SQLAlchemy, JavaScript, D3, jQuery, AJAX',
