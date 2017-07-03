@@ -8,8 +8,8 @@ class ProjectDetail extends Component {
       <div className='container-fluid'>
         <div className="detail row">
           <div className="col-sx-12 col-md-6 col-md-offset-3">
-            <h4>About</h4>
-            <div>{this.props.description}</div>
+            <h3>About</h3>
+            <div className="description">{this.props.description}</div>
             <div>
               <a href={this.props.url} alt={this.props.name}>
                 <span className="glyphicon glyphicon-link"></span> View website

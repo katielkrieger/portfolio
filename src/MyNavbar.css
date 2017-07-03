@@ -7,6 +7,10 @@
   border-top: 0;
 }
 
+.navbar * {
+  font-family: 'Radley';
+}
+
 .right {
   float: right;
 }

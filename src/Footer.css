@@ -14,7 +14,11 @@
   padding-bottom: 25px;
 }
 
-.glyphicon {
+.footer h2 {
+  font-family: 'Radley';
+}
+
+.glyphicon-envelope {
   font-size: 36px;
 }
 

@@ -2,3 +2,22 @@
   height: auto;
   margin-bottom: 30px;
 }
+
+.glyphicon-link {
+  margin-top: 5px;
+}
+
+.detail * {
+  font-family: 'Radley';
+}
+
+.description {
+  font-family: 'Radley';
+  font-size: 16px;
+}
+
+@media screen and (max-width: 500px) {
+  .glyphicon-link {
+    font-size: 1.5rem;
+  }
+}
