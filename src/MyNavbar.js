@@ -20,7 +20,7 @@ class MyNavbar extends Component {
             <Navbar.Toggle />
           </Navbar.Header>
           <Navbar.Collapse>
-            <Nav>
+            <Nav className="right">
               <NavItem eventKey={1} href="#about">About me</NavItem>
               <NavItem eventKey={2} href="#portfolio">Portfolio</NavItem>
               <NavItem eventKey={3} href="#contact">Contact</NavItem>
