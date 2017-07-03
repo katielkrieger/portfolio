@@ -11,9 +11,7 @@ class ProjectDetail extends Component {
             <h3>About</h3>
             <div className="description">{this.props.description}</div>
             <div>
-              <a href={this.props.url} alt={this.props.name}>
-                <span className="glyphicon glyphicon-link"></span> View website
-              </a>
+              <a href={this.props.url} alt={this.props.name}>View website</a>
             </div>
           </div>
         </div>
