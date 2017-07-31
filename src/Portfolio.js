@@ -35,10 +35,18 @@ Portfolio.defaultProps = {
     {
       name: 'Tradecraft Patterns',
       description: "I helped Tradecraft develop a new website designed to support job searches. Users can browse companies and add specific companies to their funnel, where they can be shuffled between various stages such as Research, Interview, and Follow Up. Users can also keep personal notes about specific companies.",
-      technologies: 'React, Node.js, Mongoose, OAuth 2.0 (Google), Sass',
+      technologies: 'React, Node.js, MongoDB, OAuth 2.0 (Google), SCSS',
       github: 'https://github.com/rithmschool/patterns-api',
       url: 'https://patterns-staging.herokuapp.com',
       image: './static/images/Patterns.jpg'
+    },
+    {
+      name: 'Tunelark',
+      description: "I worked with Tunelark to build out a new web-based game for learning guitar. Users can play an interactive game, which offers multiple types of questions, to learn to play guitar.",
+      technologies: 'React, Redux, Ruby, RSpec, JavaScript',
+      github: 'https://github.com/rithmschool/musicgym',
+      url: 'tunelark.com/fretboard',
+      image: './static/images/tunelark.jpg'
     },
     {
       name: 'My Bookshelves',
