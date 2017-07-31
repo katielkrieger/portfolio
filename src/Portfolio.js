@@ -46,7 +46,7 @@ Portfolio.defaultProps = {
       technologies: 'React, Redux, Ruby, RSpec, JavaScript',
       github: 'https://github.com/rithmschool/musicgym',
       url: 'tunelark.com/fretboard',
-      image: './static/images/tunelark.jpg'
+      image: './static/images/tunelark.jpeg'
     },
     {
       name: 'My Bookshelves',
